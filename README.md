@@ -13,12 +13,12 @@ So this small powershell script gets two arguments. These are the name of the so
 and the target volume. It will copy the volume data from the source to the target
 by using the alpine image.
 
-By using the following command
+By using the following command;
 
 <code>docker-volume-coloner.ps1 sqlserver-data sqlserver-data-backup</code>
 
-You can copy all data that is contained in the named volume sqlserver-data to the 
-sqlserver-data-backup. To do this job this script;
+You can copy all data that is contained in the named volume sqlserver-data to the sqlserver-data-backup. 
+To do this job, the script;
 
 - Checks existance of source and target volume
 - Creates target volume
