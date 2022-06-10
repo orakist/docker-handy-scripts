@@ -15,7 +15,7 @@ alpine image.
 
 By using the following command;
 
-<code>./docker-volume-coloner.ps1 sqlserver-data sqlserver-data-backup</code>
+<code>.\docker-volume-coloner.ps1 sqlserver-data sqlserver-data-backup</code>
 
 you can copy all data of the volume sqlserver-data to the sqlserver-data-backup.  
 To do this job, the script;
@@ -34,7 +34,7 @@ This small powershell script takes one argument to query containers by name.
 
 By using the following command;
 
-<code>./remove-matched-containers.ps1 container-name</code>
+<code>.\remove-matched-containers.ps1 container-name</code>
 
 you can stop and remove all containers whose name starts with container-name.  
 To do this job, the script;
