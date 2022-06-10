@@ -17,8 +17,8 @@ By using the following command;
 
 <code>./docker-volume-coloner.ps1 sqlserver-data sqlserver-data-backup</code>
 
-You can copy all data that is contained in the named volume sqlserver-data to the 
-sqlserver-data-backup. To do this job, the script;
+you can copy all data of the volume sqlserver-data to the sqlserver-data-backup.  
+To do this job, the script;
 
 - Checks existance of source and target volume
 - Creates target volume
@@ -36,8 +36,8 @@ By using the following command;
 
 <code>./remove-matched-containers.ps1 container-name</code>
 
-You can stop and remove all containers whose name starts with container-name. To do this 
-job, the script;
+you can stop and remove all containers whose name starts with container-name.  
+To do this job, the script;
 
 - Queries containers whose name starts with container-name 
 - Stops and removes matched containers with a nice output
