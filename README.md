@@ -31,12 +31,13 @@ environment. By the help of this script you can stop and remove any docker conta
 name starts with a spesific query string.
 
 This small powershell script takes one argument to query containers by name.
+
 By using the following command;
 
 <code>./remove-matched-containers.ps1 container-name</code>
 
-You can stop and remove all containers whose name starts with container-name. 
-To do this job, the script;
+You can stop and remove all containers whose name starts with container-name. To do this 
+job, the script;
 
 - Queries containers whose name starts with container-name 
 - Stops and removes matched containers with a nice output
